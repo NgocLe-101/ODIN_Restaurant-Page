@@ -1,0 +1,25 @@
+{
+  "name": "odin_restaurant-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NgocLe-101/ODIN_Restaurant-Page.git"
+  },
+  "author": "NgocLe-101",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NgocLe-101/ODIN_Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/NgocLe-101/ODIN_Restaurant-Page#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
