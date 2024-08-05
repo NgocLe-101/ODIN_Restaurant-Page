@@ -4,7 +4,10 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: {
-    index: './src/index.js',
+    index: './src/scripts/index.js',
+    homepageModule: './src/scripts/homepage.js',
+    aboutModule: './src/scripts/about.js',
+    menuModule: './src/scripts/menu.js'
   },
   plugins: [
     new HTMLWebpackPlugin({
@@ -27,6 +30,10 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: 'asset/resource',
       },
     ]
